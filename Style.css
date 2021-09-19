@@ -1,0 +1,196 @@
+body
+{
+    background-image: url('Design/5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+.flex-container {
+    display: flex;
+    
+}
+
+.flex-container>div {
+  
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 30px;
+    font-size: 15px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    
+}
+.flex-container>div:hover
+{
+  
+    cursor: pointer;
+    
+}
+.test {
+    margin-top: -600px;
+    height: 600px;
+    width: 1100px;
+    position: absolute;
+    padding-left: 150px;
+  
+}
+.wrap
+{
+    display: block;
+}
+.wrap>div {
+   
+   
+    height: 600px;
+    width: 1100px;
+    display: block;
+    flex-direction: column;
+    
+}
+.inventory
+{
+    display: flex;
+}
+.inventory>div
+{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 10px;
+    padding-left:  7px;
+    padding-right:  7px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+
+#imageBox
+{
+    margin-bottom: -500px;
+}
+button
+{
+    border-radius: 10px;
+}
+button:hover
+{
+    cursor: pointer;
+}
+.inventory>div:hover
+{
+    background-color: rgb(104, 101, 100);
+}
+.news>div
+{
+    border: 3px solid black;
+    height: 300px;
+    width: 1100px;
+
+    display: block;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.news>div:hover
+{
+    background-color: rgb(104, 101, 100);
+}
+.video>div
+{
+    
+    border: 3px solid black;
+    height: 300px;
+    width: 1100px;
+
+    display: block;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.foot>div
+{
+    border: 2px solid black;
+    background-color: black;
+   
+    height: 200px;
+    margin-top: 150px;
+    padding-top: 50px;
+    
+    display: block;
+    
+}
+.f1:hover
+{
+    border-bottom: 2px solid white;
+}
+.f2:hover
+{
+    border-bottom: 2px solid white;
+}
+.f3:hover
+{
+    border-bottom: 2px solid white;
+}
+.f4:hover
+{
+    border-bottom: 2px solid white;
+}
+.f5:hover
+{
+    border-bottom: 2px solid white;
+}
+.f6:hover
+{
+    border-bottom: 2px solid white;
+}
+.fa {
+    padding: 20px;
+font-size: 30px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+margin-left: 70px;
+margin-right: 70px;
+margin-top: 40px;
+}
+
+.fa:hover {
+opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
